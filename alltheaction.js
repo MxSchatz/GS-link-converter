@@ -7,13 +7,16 @@ function goGrabIt() {
 
   path = document.getElementById("winLink").value;
   path = path.replace(/\\/g, "/");
-  path = path.replace("Z:/");
+  path = path.replace("Z:");
   path = path.split(' ').join("%20");
   var drive = /(.)\:\//;
 
   //Turn into URL object
   var uri = new URL(`smb://10.60.50.20/Data/${path}`).href;
+  console.log(uri);
   var plainText = document.createTextNode(uri);
+  console.log(plainText);
+
 
   //sore variable for if statement
   var thing = document.getElementById('clickResults').textContent;
