@@ -36,7 +36,6 @@ p {
 
 a {
   color:#EF7520;
-  word-wrap: break-word;
 }
 
 textarea {
@@ -54,7 +53,6 @@ textarea {
   transition: all 0.2s ease-in-out;
   resize: none;
   height: auto;
-  word-wrap: break-word;
 
 }
 
@@ -66,6 +64,7 @@ button {
   border: none;
   padding: 20px;
   width: 300px;
+  margin-bottom: 20px;
   font-size: 18px;
   outline: none;
   transition: all 0.2s ease-in-out;
@@ -73,11 +72,11 @@ button {
   background-color:#333;
   color: #fff;
   padding: 16px 40px;
-}
 
-button:hover {
-  color: #fff;
-  background-color:#000;
+/*  &:hover {
+    color: #000;
+    background-color:#fff;
+  }*/
 }
 
 #demResultsMayne {
@@ -86,7 +85,7 @@ button:hover {
 
 
 #results, #clickResults {
-  margin: 20px auto;
+  margin: 40px auto;
   color: #000;
   background-color:#fff;
   font: 18px Helvetica, Arial, sans-serif;
@@ -104,6 +103,20 @@ button:hover {
   text-decoration: none;
 }
 
+#toUrl {
+transition: all 0.2s ease-in-out;
+font: 18px Helvetica, Arial, sans-serif;
+border: none;
+background: #333;
+color: #fff;
+padding: 20px 40px;
+text-align: center;
+
+  &:hover {
+    background: #111;
+  }
+}
+
 #title {
   font: 18px Helvetica, Arial, sans-serif;
   align-items: center;
@@ -119,3 +132,4 @@ button:hover {
   justify-content: space-around;
   align-items: center;
 }
+
