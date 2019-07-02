@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>G&S Link Converter</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
     <link rel="javascript" href="alltheaction.js">
 
 </head>
@@ -14,11 +13,16 @@
   <div id="title">
     <h1>G&S Link Converter</h1>
   </div>
+  <div>
+    <p>
+      Notice: Safari is buggy, use Chrome or Firefox.
+    </p>
+  </div>
 
-<div class="convert-inputs">
-    <textarea name="file-path" id="file-path" class="textBox" onclick="clearIt()">Paste Windows File Path Here</textarea>
-    <button id="submit-path">Convert</button>
-</div>
+  <div class="convert-inputs">
+      <textarea name="file-path" id="file-path" class="textBox" onclick="clearIt()">Paste Windows File Path Here</textarea>
+      <button id="submit-path">Convert</button>
+  </div>
 
 
   <div id="demResultsMayne">
@@ -26,9 +30,6 @@
     </p>
     <div id="clickResults"></div>
     <p>click the link to open in finder</p>
-
-
-
   </div>
 
   <script src="alltheaction.js"></script>
