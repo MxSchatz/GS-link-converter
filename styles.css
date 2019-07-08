@@ -116,6 +116,10 @@ button:hover {
   max-width: 300px;
 }
 
+#compatabilityNotice {
+
+}
+
 .convert-inputs{
   margin:auto;
   margin-top:2rem;
@@ -123,4 +127,17 @@ button:hover {
   flex-flow:column nowrap;
   justify-content: space-around;
   align-items: center;
+}
+
+.fadeIn {
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

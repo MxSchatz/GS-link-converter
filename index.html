@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>G&S Link Converter</title>
+    <script src="https://kit.fontawesome.com/77ea0bebf3.js"></script>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="javascript" href="alltheaction.js">
-    <script src="https://kit.fontawesome.com/77ea0bebf3.js"></script>
 
 </head>
 <body>
@@ -14,12 +14,10 @@
   <div id="title">
     <h1>G&S Link Converter</h1>
   </div>
-  <div>
-    <p><i class="fas fa-exclamation-circle"></i> Best viewed in Chrome and Firefox.
-    </p>
-  </div>
 
   <div class="convert-inputs">
+    <p id="compatabilityNotice" class="fadeIn"><i class="fas fa-exclamation-circle"></i> Best viewed in Chrome and Firefox.
+    </p>
       <textarea name="file-path" id="file-path" class="textBox" onclick="clearIt()">Paste Windows File Path Here</textarea>
       <button id="submit-path">Convert</button>
   </div>
@@ -29,7 +27,7 @@
     <p>The link below has been copied to your clipboard
     </p>
     <div id="clickResults"></div>
-    <p>click the link to open in finder</p>
+    <p class="fadeIn">click the link to open in finder</p>
   </div>
 
   <script src="alltheaction.js"></script>

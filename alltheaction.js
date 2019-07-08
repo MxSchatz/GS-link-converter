@@ -11,6 +11,7 @@ document.getElementById("demResultsMayne").style.display = "block";
 path = path.replace(/\\/g, "/");
 path=path.split(' ').join("%20");
 path=path.replace('Z:\/',"");
+path=path.replace('//firm.gibbs-soell.net/data/',"");
 
 //Turn into URL object
 var uri = new URL(`smb://10.60.50.20/Data/${path}`).href;
@@ -46,6 +47,7 @@ if (thing.length > 1) {
 
 }
 
+//Clear text field when selected
 function clearIt(){
   document.getElementById('file-path').value = '';
 }
