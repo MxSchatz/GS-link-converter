@@ -7,6 +7,18 @@ div {
   margin: 40px auto 20px auto;
 }
 
+table {
+  padding: 10px;
+}
+
+hr {
+  display: block;
+  background-color: none;
+  border-style: none;
+  padding: 5px;
+  width: 300px;
+}
+
 h1 {
   display: table;
   margin: 40px auto 20px auto;
@@ -35,7 +47,7 @@ p {
 }
 
 i {
-  color: #fff;
+  color: #f5ac79;
   letter-spacing: auto;
 }
 
@@ -64,20 +76,18 @@ textarea {
 }
 
 button {
-  font: 18px Helvetica, Arial, sans-serif;
+  font: 14px Helvetica, Arial, sans-serif;
   box-sizing: border-box;
-  display: block;
+  /*display: block;*/
   position: relative;
   border: none;
-  padding: 20px;
-  width: 300px;
-  font-size: 18px;
+  width: 150px;
   outline: none;
   transition: all 0.2s ease-in-out;
   border: none;
-  background-color:#333;
+  background-color: #bf5d19;
   color: #fff;
-  padding: 16px 40px;
+  padding: 16px 20px;
 }
 
 button:hover {
@@ -88,6 +98,7 @@ button:hover {
 #demResultsMayne {
   display: none;
 }
+
 
 
 #results, #clickResults {
@@ -117,7 +128,7 @@ button:hover {
 }
 
 #compatabilityNotice {
-
+  color: #f5ac79;
 }
 
 .convert-inputs{

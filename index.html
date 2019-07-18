@@ -11,22 +11,30 @@
 <body>
 
   <div id="title">
+    <p id="compatabilityNotice" class="fadeIn"><i class="fas fa-exclamation-circle"></i> Best viewed in Chrome and Firefox.
+    </p>
     <h1>G&S Link Converter</h1>
   </div>
 
   <div class="convert-inputs">
-    <p id="compatabilityNotice" class="fadeIn"><i class="fas fa-exclamation-circle"></i> Best viewed in Chrome and Firefox.
-    </p>
-      <textarea name="file-path" id="file-path" class="textBox" onclick="clearIt()">Paste Windows File Path Here</textarea>
-      <button id="submit-path">Convert</button>
+      <textarea name="file-path" id="file-path" class="textBox" onclick="clearIt()">File Path Here</textarea>
+      <hr>
+      <h2>Convert Options</h2>
+      <table>
+        <tr>
+          <td>
+            <button id="submit-path">Windows to Mac</button>
+            <button id="submit-broken">Broken Mac Link</button>
+          </td>
+        </tr>
+      </table>
   </div>
 
 
   <div id="demResultsMayne">
-    <p>The link below has been copied to your clipboard
-    </p>
+    <p class="fadeIn"></p>
     <div id="clickResults"></div>
-    <p class="fadeIn">click the link to open in finder</p>
+    <p id="notification" class="fadeIn"></p>
   </div>
 
   <script src="alltheaction.js"></script>
