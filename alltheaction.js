@@ -38,7 +38,7 @@ if (thing.length > 1) {
         //deliver to div
         document.getElementById('clickResults').innerHTML = '<a id="resultsLink" href="'+uri+'"></a>';
         document.getElementById('resultsLink').appendChild(plainText);
-      document.getElementById('notification').innerHTML= 'The link has been copied to your clipboard </br> click link above mount on mac';
+      document.getElementById('notification').innerHTML= 'The link has been copied to your clipboard </br> Click link above to mount on mac';
     } else {
       //deliver to div
       document.getElementById('clickResults').innerHTML = '<a id="resultsLink" href="'+uri+'"></a>';
@@ -85,14 +85,14 @@ if (thing.length > 1) {
         //deliver to div
         document.getElementById('clickResults').innerHTML = '<a id="resultsLink" href="'+uri+'"></a>';
         document.getElementById('resultsLink').appendChild(plainText);
-        document.getElementById('notification').innerHTML= 'The link has been copied to your clipboard </br>it can now be pasted';
+        document.getElementById('notification').innerHTML= 'The link has been copied to your clipboard </br>It can now be pasted';
 
         document.getElementById('demResultsMayne').style.display = "block";
     } else {
       //deliver to div
       document.getElementById('clickResults').innerHTML = '<a id="resultsLink" href="'+uri+'"></a>';
       document.getElementById('resultsLink').appendChild(plainText);
-      document.getElementById('notification').innerHTML= 'The link has been copied to your clipboard </br>it can now be pasted';
+      document.getElementById('notification').innerHTML= 'The link has been copied to your clipboard </br>It can now be pasted';
 
       document.getElementById("demResultsMayne").style.display = "block";
   }
